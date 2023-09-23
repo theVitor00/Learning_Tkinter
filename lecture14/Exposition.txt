@@ -1,0 +1,7 @@
+THE WIDGET IS CALLED tk.Menu
+
+You use several of them and nest them... a lot
+
+If you place a tk.Menu inside of another tk.Menu, it becomes one option
+
+For a sub menu, you would place a menu inside of a menu inside of anoter menu
