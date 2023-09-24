@@ -1,0 +1,13 @@
+NOTES ON LECTURE
+
+window.geometry("width,left+position_left+position_top")
+window.iconbitmap('path_to_file.ico')
+window.minsize(min_width, min_height)
+window.maxsize(max_width, max_height)
+window.resizable(allowed_h,allowed_v) # set to True or False
+window.attributes("-alpha", o to 1) # change opacity
+window.attributes("-topmost", True or False) # toogle window above any other
+window.attributes("-disable", True or False) # lock window
+window.attributes("-fullscreen", True or False) # set standard fullscreet to True or False
+
+window.overrideredirect(True or False) # set the title bar to be shown
