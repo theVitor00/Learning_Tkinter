@@ -1,0 +1,48 @@
+PACK
+
+In the most basic sense, pack() works by stacking items in a certain order, from
+the top to the bottom.
+We have a couple of ways to costumize this. For example, we can tell the widget to occupy all
+the horizontal or vertical space.
+To create this kind of effect, we have three different arguments to understand:
+
+_________________________________________________________________________________________________
+    - SIDE - Determines wich side the widget will be added. The direction.
+
+    side = "left", "right", "top", "bottom"
+
+_________________________________________________________________________________________________
+    - EXPAND - Determines the vertical or horizontal space a widget can occupy
+    Important: the widget expands only in one direction.
+
+    There are 2 kinds of space:
+    > The space a widget CAN occupy;
+    > tHE space a widget WILL occupy;
+
+    By default, a widget WILL only be as bg as the content (for example, a label is just as big as the text)
+    Howeber, the widget can occupy more space by default.
+
+    side = top or bottom > Widget can be as wide as the container.
+    Expand determines the height.
+    side = left or right > widget can be as heigh as the container. 
+    Expand determines the height.
+
+    expand = True / False
+
+_________________________________________________________________________________________________
+    - FILL - Sets how much space the widget will occupy
+
+    fill = "x", "y", "both", None
+
+_________________________________________________________________________________________________
+
+    PADDING
+
+    There is two kinds of padding: 
+        > padx (horizontal) or pady (vertical) - Create space around the widget
+        > ipadx(h) or ipady (v) - Expands the widget
+
+_________________________________________________________________________________________________
+
+    You can also combine different sides. But then the order of the pack calls really matters.
+    Usually it is cleaner to use frames to organize a more complex layout.
