@@ -1,0 +1,12 @@
+PLACE
+
+    > Widgets are olaced by specifying the LEFT, TOP, WIDH AND HEIGHT
+    > These numbers can be absulute or relative (Percentage)
+
+    .place(posx, posy, width(optional), height(optional)) -- absolute position
+    .place(relx, rely, rel_width(optional), rel_height(optional))  -- relative position
+
+    NOTE: On relative position, the scale of the number from 0 to 1, where 1 represents 100% of the total resolution (x and y).
+    In this model for example, 0.5 represents 50%, 0.3 represents 30% and so on...
+
+    The anchor controls which point is placed(n - north, e - east, s - south, w - west), and "center" as well

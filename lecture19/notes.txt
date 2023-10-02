@@ -1,0 +1,16 @@
+GRID
+
+Like with Pack, the grid only determines how much space a widget CAN occupy.
+
+Sitcky determines what are WILL be filled.
+
+    sticky = "n" 
+    > Widget retains size but sticks at the top
+
+    sticky = "ns"
+    > Widget retains width but height is heigth of the cell
+
+    sticky = "nswe"
+    > Widget ocuppy the whole area of the cell
+
+    
