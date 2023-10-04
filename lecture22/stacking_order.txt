@@ -1,0 +1,14 @@
+STACKING ORDER
+
+    Widgets are always placed on top of other widgets when they are
+    created (not when they are placed). The last widget created stays on top of the stack.
+
+    Although you can raise widgets to be on top of all widgets or of another widget.
+
+    widget.lift() // widget.tkraise() - Elevate the label to the upper stacking order
+    widget.lower() - Puts the label to the bottom of the stacking order
+
+    ** tkraise() can take one argument, called 'aboveThis'.
+    While lift() elevates the widget all the way to the top, 
+    tkraise(aboveThis = "thisWidget") elevates the widget for just one layer,
+    which is one level above it.

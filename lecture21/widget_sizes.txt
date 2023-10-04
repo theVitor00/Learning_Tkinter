@@ -1,0 +1,8 @@
+WIDGETS SIZE
+
+    Widget can have a custom SIZE
+    But that size will be overwritten by the layout methods.
+
+    ttk.Label(parent, text = "Label", width = 50).pack(fill = "x")
+
+    Not understanding this can cause some annoing layout problems.
