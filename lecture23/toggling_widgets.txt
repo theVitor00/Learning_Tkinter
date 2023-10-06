@@ -1,0 +1,7 @@
+TOGGLING WIDGETS
+
+    You don't really hide/ reveal widgets. Instead, you remove and add
+    widgets to the layout.
+
+    pack to place a widget
+    pack_forget to remove it
